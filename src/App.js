@@ -1,12 +1,11 @@
-import { Provider } from "./components/ui/provider"
-import loginPage from "./pages/accounts/loginPage"
+import LogOnPage from "./pages/accounts/LongOnPage";
 
-function App({ Component, pageProps }) {
+
+function App() {
   return (
-    <Provider>
-      <Component {...pageProps} />
-      <loginPage />
-    </Provider>
+    <div>
+      <LogOnPage />
+    </div>
   )
 }
 
